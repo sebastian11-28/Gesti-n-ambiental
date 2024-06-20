@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoHarmony</title>
+    <link rel="stylesheet" href="./controler/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gestion ambiental EcoHarmony</h1>
+    </header>
+    <nav id="menu">
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="analisis.html" target="_blank">Dashboard</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#about">Acerca de nosotros</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home" class="banner text-white">
+        <h2>Bienvenido a EcoHarmony</h2>
+        <p>
+          EcoHarmony es una empresa comprometida con la promoción y el impulso
+          de prácticas sostenibles y respetuosas con el medio ambiente. Su
+          objetivo principal es fomentar la armonía entre la actividad humana y
+          la naturaleza, buscando soluciones innovadoras para abordar los
+          desafíos ambientales globales.
+        </p>
+      </section>
+      <section id="dashboard">
+        <div id="carousel" class="carousel">
+          <div
+            class="carousel-item active"
+            style="background-image: url('./imagenes/eventoReforestacion.jpg')"
+          >
+            <h2>Evento de Reforestación</h2>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('./imagenes/reciclajeUrbano.jpg')"
+          >
+            <h2>Reciclaje Urbano</h2>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('./imagenes/educacion-ambiental.jpg')"
+          >
+            <h2>Conferencias Educativas</h2>
+          </div>
+          <button class="carousel-control prev" onclick="moveSlide(-1)">
+            &#10094;
+          </button>
+          <button class="carousel-control next" onclick="moveSlide(1)">
+            &#10095;
+          </button>
+        </div>
+      </section>
+      <section id="services">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+          <ol>
+            <b>1. Educación Ambiental:</b>
+            EcoHarmony desarrolla programas educativos y actividades de
+            sensibilización para fomentar una mayor comprensión y aprecio por la
+            naturaleza y los ecosistemas.
+          </ol>
+          <br />
+          <ol>
+            <b>2. Gestión de Residuos:</b>
+            La empresa ofrece soluciones integrales para la gestión de residuos,
+            incluyendo la reducción, reutilización, reciclaje y disposición
+            adecuada de los mismos.
+          </ol>
+          <br />
+          <ol>
+            <b>3. Conservación de la Biodiversidad:</b>
+            EcoHarmony trabaja en la protección y restauración de ecosistemas
+            naturales, así como en la conservación de especies en peligro de
+            extinción.
+          </ol>
+          <br />
+          <ol>
+            <b> 4. Desarrollo de Tecnologías Verdes:</b>
+            La empresa investiga y desarrolla tecnologías innovadoras que
+            promueven la eficiencia energética, la energía renovable y la
+            reducción de la huella de carbono.
+          </ol>
+          <br />
+          <ol>
+            <b>5. Consultoría Ambiental:</b>
+            EcoHarmony ofrece servicios de consultoría y asesoramiento en temas
+            ambientales, ayudando a empresas, instituciones y gobiernos a
+            cumplir con regulaciones ambientales y adoptar prácticas
+            sostenibles.
+          </ol>
+          <br />
+        </ul>
+      </section>
+      <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>
+          Sebastián Bohórquez Bermúdez, a sus 23 años, es un individuo
+          comprometido y apasionado por la preservación del medio ambiente y el
+          impulso de prácticas sostenibles. Desde una edad temprana, Sebastián
+          ha demostrado un profundo interés en los temas ambientales y una firme
+          convicción en la importancia de proteger y conservar los recursos
+          naturales para las generaciones futuras. Con una mente creativa y
+          emprendedora, Sebastián se ha destacado por su capacidad para generar
+          ideas innovadoras y soluciones creativas para abordar los desafíos
+          ambientales actuales. Su enfoque proactivo y su compromiso con la
+          sostenibilidad lo han llevado a buscar oportunidades para marcar la
+          diferencia en su comunidad y más allá.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Plataforma Medioambiental. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./controler/script.js"></script>
+  </body>
+</html>
